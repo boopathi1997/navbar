@@ -1,0 +1,18 @@
+$pri-color:black;
+$main-color:purple;
+$nav-color:red;
+
+
+@mixin flex-style{
+    display: flex;
+    justify-content: space-center;
+    align-items: center;
+}
+
+
+@mixin flex-styles($JC){
+    display: flex;
+    justify-content: $JC;
+    align-items: center;
+}
+
